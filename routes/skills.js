@@ -1,10 +1,14 @@
 import { Router } from 'express'
 import { skills } from '../data/skills-data.js'
 
-const router = router()
+const router = Router()
 
-app.get('/', function(req, res) {
+router.get('/', function(req, res) {
   res.render('skills/index', {
     skills: skills
   })
 })
+
+export {
+  router
+}
