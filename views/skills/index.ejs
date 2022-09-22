@@ -11,7 +11,9 @@
   <ul>
     <% skills.forEach(skill => { %>
       <li>
-        <%= skills.text %>
+        <%= skills.name %>
+        -
+        <%= skills.learned ? 'Learned' : 'In Progress' %>
       </li>
 
     }

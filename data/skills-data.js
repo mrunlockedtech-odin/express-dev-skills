@@ -7,3 +7,7 @@ const skills = [
   {name: 'MongoDB', learned: false, unit:1}
   {name: 'Mongoose', learned: false, unit:1}
 ]
+
+export {
+  skills
+}
